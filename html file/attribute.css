@@ -1,0 +1,16 @@
+/* li[class]{
+    color: red;
+} */
+/* li[class="a"]{
+    color: aqua;
+} */
+/* li[class~="a"]{
+    color: blue;
+} */
+*{
+    list-style-type: none;
+    color: brown;
+}
+h1{
+    color: darkmagenta;
+}

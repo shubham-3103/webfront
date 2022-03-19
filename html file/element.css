@@ -1,0 +1,30 @@
+/* p,a{
+    color: green;
+}
+li{
+    list-style-type: square;
+}
+.special{
+    color: orange;
+    font-weight: bold;
+} */
+/* span.special,li.special{
+    color: orange;
+} */
+/* li em{
+    color:lime;
+} */
+/* h1+p{
+    color: blue;
+} */
+
+ /* Sudo-class Selector  */
+/* a:hover{
+    color: springgreen;
+    text-decoration: wavy;
+} */
+body h1+p .special{
+    color: yellow;
+    background: black;
+    padding: 5px;
+}

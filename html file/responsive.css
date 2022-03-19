@@ -1,0 +1,46 @@
+.top{
+    color: green;
+}
+#name1{
+    display: block;
+    background-color: rgba(128, 128, 128, 0.877);
+    color: red;
+    padding: 1% 19% .1% 2%;
+}
+#name2{
+    display: block;
+    background-color: rgba(128, 128, 128, 0.808);
+    color: red;
+    padding: 1% 19% .1% 2%;
+}
+#name3{
+    display: block;
+    background-color: rgba(128, 128, 128, 0.603);
+    color: red;
+    padding: 1% 19% .1% 2%;
+}
+#name4{
+    display: block;
+    background-color: rgba(128, 128, 128, 0.418);
+    color: red;
+    padding: 1% 19% .1% 2%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+}
+@media all and (max-width:830px) {
+    #name1,#name2{
+        display: flex;
+        flex-direction: column;
+    }
+    #name3,#name4{
+        display: flex;
+        flex-direction: column;
+    }
+}

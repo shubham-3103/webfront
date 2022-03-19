@@ -1,0 +1,37 @@
+input[type="text"],input[type="email"],input[type="web"]{
+    height: 40px; width: 25%;
+    background-color: rgba(211, 211, 211, 0.294);
+}
+.first{
+    padding: 2% 0% 0% 3%;
+}
+
+#messarea{
+    position: absolute; right: 150px; top: 90px;
+    height: 25%; width: 20%;
+    background-color: rgba(211, 211, 211, 0.294);
+}
+body{
+    border: dashed rgb(102, 163, 233) 20px; 
+}
+.send button{
+    /* color: rgb(102, 163, 233); */
+    font-size: 46px;
+    text-align: center;
+    display: block;
+    /* cursor: pointer; */
+    color: rgb(102, 163, 233);
+    text-decoration: none;
+    background-color: transparent ;
+    border: none;
+    cursor: pointer;
+
+}
+.send{
+    display: flex;
+    justify-content: center;
+}
+.same::after,.mess::after{
+    content: " *";
+    color: red;
+}

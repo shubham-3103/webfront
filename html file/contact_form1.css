@@ -1,0 +1,27 @@
+.upper{
+    /* display: flex;
+    flex-flow: column;
+    align-items: center; */
+    background-color: rgb(0, 153, 255);
+    padding: 2% 2% 2% 2%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* .mid input{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+} */
+
+/* input[type='text'],input[type='email'],textarea{
+    width: 50%;
+} */
+.mid{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.mid button{
+    max-width: 10%;
+}
