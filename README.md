@@ -1,5 +1,5 @@
 # webfront
-this is where i practice frontend development
+This is where i practice frontend development
 
 HTML
 CSS
